@@ -1,0 +1,56 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-26 13:52:50 -0700
+Served asset /rails.png - 200 OK (56ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-09-26 13:52:55 -0700
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (87.9ms)
+Completed 200 OK in 348ms (Views: 345.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-09-26 13:52:56 -0700
+Processing by Rails::InfoController#properties as */*
+  Rendered inline template (2.0ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-09-26 14:00:24 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-09-26 14:01:41 -0700
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Compiled welcome.css  (76ms)  (pid 3332)
+Compiled application.css  (144ms)  (pid 3332)
+Compiled jquery.js  (28ms)  (pid 3332)
+Compiled jquery_ujs.js  (1ms)  (pid 3332)
+Compiled welcome.js  (1147ms)  (pid 3332)
+Compiled application.js  (1465ms)  (pid 3332)
+Completed 200 OK in 1896ms (Views: 1893.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /application.css - 200 OK (24ms)
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /welcome.css - 200 OK (12ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /jquery.js - 200 OK (76ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /jquery_ujs.js - 200 OK (12ms)
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /welcome.js - 200 OK (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-09-26 14:01:43 -0700
+Served asset /application.js - 200 OK (36ms)
